@@ -1,9 +1,11 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+## PrivAgent Mail
+
 <img width="508" height="376" alt="57d0ffc67e41ae067497269dc46eb2d6" src="https://github.com/user-attachments/assets/d2306f13-af30-476a-9906-337d7619fa72" />
 
 
-**PrivAgent** is a Chrome extension that overlays Gmail with instant, privacy-preserving AI summaries. Incoming mail is anonymized locally before it ever leaves the browser, then sent to your preferred OpenAI-compatible endpoint to create concise recaps, action flags, and suggested labels—without exposing sensitive data.
+**PrivAgent Mail** is a Chrome extension that overlays Gmail with instant, privacy-preserving AI summaries. Incoming mail is anonymized locally before it ever leaves the browser, then sent to your preferred OpenAI-compatible endpoint to create concise recaps, action flags, and suggested labels—without exposing sensitive data.
 
 ## Demo Video
 [![Watch the demo](https://img.youtube.com/vi/Sfu7we0LLXE/0.jpg)](https://youtu.be/Sfu7we0LLXE)
