@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "PrivAgent Mail",
+  "author": "Copyright (c) 2025 Yifan Xu, Jietong Zhou, Yihang Zou, Yuchu Guo",
+  "version": "1.0.0",
+  "key": "YOUR_PUBLIC_KEY_HERE",
+  "description": "An AI-powered smart e-mail summarizer with zero privacy risk. Don't choose between AI efficiency and data security. Get both.",
+  "permissions": ["identity", "storage"],
+  "host_permissions": ["https://gmail.googleapis.com/*", "<all_urls>"],
+  "oauth2": {
+    "client_id": "YOUR_CLIENT_ID.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/gmail.readonly",
+      "https://www.googleapis.com/auth/gmail.modify"
+    ]
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "PrivAgent Mail",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://mail.google.com/*"],
+      "js": ["content.js"],
+      "css": ["style.css"],
+      "run_at": "document_end"
+    }
+  ]
+}
