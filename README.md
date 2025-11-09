@@ -42,7 +42,7 @@ PrivAgent is a Chrome extension that overlays Gmail with instant, privacy-preser
 
 ### 3. Provide an LLM endpoint
 1. Click the PrivAgent toolbar icon.
-2. In **Settings**, enter your Chat Completions endpoint, preferred model (e.g. `gpt-4o-mini`), and API key.
+2. In **Settings**, enter your Chat Completions endpoint, preferred model (e.g. `gpt-4o`), and API key.
 3. Save settings; you can clear them or purge cached anonymizer memory from the same panel.
 
 ### 4. Sign in and test
