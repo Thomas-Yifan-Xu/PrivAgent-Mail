@@ -2,6 +2,7 @@
 # PrivAgent
 
 PrivAgent is a Chrome extension that overlays Gmail with instant, privacy-preserving AI summaries. Incoming mail is anonymized locally before it ever leaves the browser, then sent to your preferred OpenAI-compatible endpoint to create concise recaps, action flags, and suggested labels—without exposing sensitive data.
+[![Watch the demo](https://img.youtube.com/vi/Sfu7we0LLXE/0.jpg)](https://youtu.be/Sfu7we0LLXE)
 
 ## Highlights
 - **Secure by design**: Names, addresses, IDs, and other identifiers are masked via the built-in `lib/anonymizer.js` engine before any model call.
