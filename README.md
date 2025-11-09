@@ -1,5 +1,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 # PrivAgent
+<img width="908" height="376" alt="b3cd12a67926ac6111c291160d395300" src="https://github.com/user-attachments/assets/bdba4197-3a21-4000-8d89-e6a63fcd569b" />
 
 PrivAgent is a Chrome extension that overlays Gmail with instant, privacy-preserving AI summaries. Incoming mail is anonymized locally before it ever leaves the browser, then sent to your preferred OpenAI-compatible endpoint to create concise recaps, action flags, and suggested labels—without exposing sensitive data.
 
